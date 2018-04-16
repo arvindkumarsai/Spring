@@ -1,0 +1,7 @@
+---
+spring:
+  application:
+    name: arvind
+  cloud:
+    config:
+      uri: http://localhost:8001
