@@ -10,7 +10,7 @@ eureka:
 
       defaultZone: http://localhost:8002/eureka/
 
-name: mallik
+sname: mallik kunde
 
 ---
 
