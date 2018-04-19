@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-eureka-client
+server:
+  port: 0
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8002/
+      healthcheck:
+      enabled: true
+      lease:
+      duration: 5
+  instance:
+    preferIpAddress: true
+    
+ 
