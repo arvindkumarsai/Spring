@@ -8,9 +8,9 @@ eureka:
 
     serviceUrl:
 
-      defaultZone: http://localhost:8010/eureka/
+      defaultZone: http://localhost:8002/eureka/
 
-
+name: mallik
 
 ---
 
