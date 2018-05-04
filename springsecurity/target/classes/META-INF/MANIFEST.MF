@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: Arvind_Chimta
+Build-Jdk: 9.0.4
+Implementation-Title: springsecurity
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.arvind.springsecurity
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/springsecuri
+ ty/
+Created-By: Maven Integration for Eclipse
+
