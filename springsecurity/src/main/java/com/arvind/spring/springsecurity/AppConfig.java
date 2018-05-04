@@ -13,9 +13,9 @@ public class AppConfig extends WebSecurityConfigurerAdapter {
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-	//before
-	//	http.authorizeRequests().anyRequest().permitAll().and().httpBasic();
-	//	http.csrf().disable();
+		//if authentication is not required and permission is given to all users and roles
+		//	http.authorizeRequests().anyRequest().permitAll().and().httpBasic();
+		//	http.csrf().disable();
 		//Matchers("/").access("hasRole('USER')").and().formLogin();
 		
 		http.authorizeRequests().anyRequest().fullyAuthenticated().and().httpBasic();
